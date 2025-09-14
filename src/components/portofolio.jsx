@@ -114,7 +114,7 @@ const Hero = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
                 <p className="text-base sm:text-lg text-gray-300 mb-4">Hello! I'm Rezki.</p>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-                    Rezki Saputra (aka Iky Ptr) — Turning data and ideas into experiences that inspire
+                    Rezki Saputra (aka Iky Ptr) — Turning data and ideas into experiences that inspire,
                     <span className="relative">
                         {currentWord}
                         {/* <span className="absolute bottom-0 left-0 w-2 h-full bg-white animate-pulse"></span> */}
