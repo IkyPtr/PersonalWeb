@@ -124,9 +124,14 @@ const Hero = () => {
                 <p className="text-base sm:text-lg text-gray-400 mt-6 max-w-xl">
                     A multidisciplinary IT student with strong mathematical skills and leadership experience, focusing on leveraging data science to create impactful digital solutions.
                 </p>
-                <button className="mt-8 bg-black text-white font-semibold py-3 px-6 rounded-lg flex items-center hover:bg-gray-800 transition-colors">
-                    Let's Talk <span className="ml-2">→</span>
-                </button>
+                <a href="#contact">
+                    <button
+                        className="mt-8 bg-black text-white font-semibold py-3 px-6 rounded-lg flex items-center hover:bg-gray-800 transition-colors"
+                    >
+                        Let's Talk <span className="ml-2">→</span>
+                    </button>
+                </a>
+
             </div>
         </section>
     );
@@ -139,10 +144,11 @@ const About = () => {
         "Design": ["Figma"]
     };
 
-    const languages = { 
-        "English": "Intermediate", 
-        "Indonesian": "Native", 
+    const languages = {
+        "English": "Intermediate",
+        "Indonesian": "Native",
         "Malay (Bahasa Melayu)": "Native",
+
     };
 
     return (
